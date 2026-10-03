@@ -50,3 +50,7 @@ GET `/expenses`
 DELETE `/expenses/{expenseId}`
 
 The Lambda derives the user ID from the authenticated request context instead of trusting a userId supplied by the browser.
+
+## 🚀 Live Demo
+
+👉 [Open Student Expense Tracker](https://main.dwpvnc3whl3ik.amplifyapp.com)
