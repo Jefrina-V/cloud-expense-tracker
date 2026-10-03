@@ -1,0 +1,3 @@
+import { useNavigate } from "react-router-dom";
+import ExpenseForm from "../components/ExpenseForm";
+export default function AddExpense(){const navigate=useNavigate();return <div className="page narrow"><div className="form-heading"><span className="pill"><span/> NEW TRANSACTION</span><h1>Add an expense</h1><p>Capture the details now so your future self can see the full picture.</p></div><div className="panel form-panel"><ExpenseForm onSaved={()=>navigate("/expenses")}/></div></div>}
